@@ -43,7 +43,7 @@ Documents/YoutubeDownloader/
 
 ## 🚀 Quick Start
 
-### 1. Move the folder into Documents
+### 1. Move the folder into Documents and RENAME the FILE YoutubeDownloader
 
 Before installing, move the unzipped folder to:
 
