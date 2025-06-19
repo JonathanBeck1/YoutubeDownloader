@@ -9,6 +9,7 @@ mkdir -p "$outdir"
 
 yt-dlp \
   --no-playlist \
-  -f "bestvideo[ext=mp4][height<=1080]+bestaudio[ext=m4a]/best[ext=mp4][height<=1080]" \
+  --merge-output-format mp4 \
+  -f "bv*[ext=mp4][vcodec^=avc1][height<=1080]+ba[ext=m4a]/b[ext=mp4]" \
   -o "$outdir/%(title)s.%(ext)s" \
   "$url"
