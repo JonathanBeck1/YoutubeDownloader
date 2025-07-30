@@ -15,7 +15,7 @@ A dead-simple command-line utility for macOS that lets you **download either the
 * **One-line installer:**
 
   ```bash
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/<your-user>/YoutubeDownloader/main/install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JonathanBeck1/YoutubeDownloader/main/install.sh)"
   ```
 * **Playlist-safe** – every script passes `--no-playlist`, so only the pasted URL is processed.
 * Clean output tree.
